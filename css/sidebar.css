@@ -1,0 +1,108 @@
+/* About CSS */
+.rightContainer {
+  float: right;
+  width: 30%;
+  padding-left: 50px;
+  margin-top: 88px;
+}
+.containerSideBar {
+  background: #ffffff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  display: none;
+}
+.titleSideBar {
+  border-bottom: 3px solid red;
+  text-align: center;
+  position: relative;
+  width: 50%;
+  left: 25%;
+}
+.imgSideBar {
+  display: flex;
+  justify-content: center;
+  padding: 10px 50%;
+}
+.imgSideBar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 1px;
+  border: 4px solid transparent;
+  background: linear-gradient(60deg, #efa51a 10%, #ce00 100%);
+  object-fit: cover;
+}
+.bodySideBar {
+  padding: 0px 20px 0px 20px;
+  font-size: 14px;
+  text-align: center;
+}
+.bodySideBar h3 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+.bodySideBar p {
+  padding-bottom: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.bodySideBar img {
+  padding: 10px 7px 10px 7px;
+}
+.bodySideBar a.moreSideBar {
+  color: grey;
+  font-weight: 800;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: all ease-in-out 450ms;
+}
+.bodySideBar a.moreSideBar:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  border-radius: 10px;
+}
+/* Popular Post CSS*/
+.headSideBar {
+  border-bottom: 2px solid red;
+  width: 60%;
+  margin-left: 20px;
+}
+.popularSideBar {
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+}
+.popularSideBar img {
+  width: 125px;
+  height: 100px;
+}
+.titlePopularPost {
+  font-size: 14px;
+  padding-left: 10px;
+  color: black;
+  font-weight: 800;
+}
+.titlePopularPost:hover {
+  border-bottom: 1px solid black;
+}
+/* Responsive Blog */
+@media (max-width: 1000px) {
+  .menuContainer,
+  .leftContainer,
+  .rightContainer {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .rightContainer {
+    margin: 0;
+  }
+}

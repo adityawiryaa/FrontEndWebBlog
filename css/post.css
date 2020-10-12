@@ -1,0 +1,51 @@
+.postTitle {
+  font-size: 25px;
+  line-height: 36px;
+  margin-bottom: 15px;
+}
+.postInfo {
+  font-size: 14px;
+}
+.postContent p {
+  line-height: 25px;
+  font-size: 17px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.contentDisplay {
+  padding-bottom: 20px;
+}
+.postPicture img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.caption {
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+#date {
+  padding-top: 35px;
+  color: #d9d9d9;
+}
+
+#postAnimation {
+  display: none;
+}
+/*Responsive Blog*/
+@media screen and (max-width: 800px) {
+  .postContent p {
+    font-size: 16px;
+  }
+  .postTitle {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .postPicture img {
+    height: 200px;
+  }
+}

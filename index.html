@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/home.css" />
+    <link type="text/css" rel="stylesheet" href="css/sidebar.css" />
+    <link type="text/css" rel="stylesheet" href="css/notification.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation-->
+    <header>
+      <nav class="navContainer">
+        <a href="index.html" class="logo">Wirya Blog</a>
+        <a href="#" class="navButton">
+          <img
+            src="https://img.icons8.com/fluent/40/000000/menu--v1.png"
+            alt="iconMenu"
+          />
+        </a>
+        <div class="navMenu">
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="html/about.html">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Notification -->
+    <section class="notificationList">
+      <div class="notification">
+        <h5>Hello Welcome on Our Blog ,Enjoy your Travel</h5>
+        <a href="#" class="closeIcon"
+          ><img
+            src="https://img.icons8.com/color/30/000000/close-window.png"
+            alt="icon"
+        /></a>
+      </div>
+      <div class="notification">
+        <h5>Click and see more post, Thanks.</h5>
+        <a href="#" class="closeIcon">
+          <img
+            src="https://img.icons8.com/color/30/000000/close-window.png"
+            alt="icon"
+          />
+        </a>
+      </div>
+    </section>
+
+    <main class="row">
+      <!-- Post Page-->
+      <section class="leftContainer">
+        <header class="category">
+          <h3>Travel</h3>
+        </header>
+        <!-- Script -->
+      </section>
+      <!-- Side Bar -->
+      <aside class="rightContainer">
+        <!-- About Post -->
+        <section class="containerSideBar">
+          <header class="titleSideBar">
+            <h3>About</h3>
+          </header>
+          <picture class="imgSideBar">
+            <img src="images/about/formalProfile.jpg" alt="picture" />
+          </picture>
+          <div class="bodySideBar">
+            <h3>Aditya Wirya Maulana</h3>
+            <p>
+              Its my first personal blog i hope you like. if you want see more
+              about me click below this.
+            </p>
+            <a href="html/about.html" class="moreSideBar">Read More</a>
+          </div>
+        </section>
+        <!-- Popular Post -->
+        <section class="containerSideBar" id="popularPost">
+          <header class="headSideBar">
+            <h3>Popular Posts</h3>
+          </header>
+          <!-- Script-->
+        </section>
+      </aside>
+    </main>
+    <!-- Script -->
+    <div>
+      <script src="js/library/jquery-3.5.1.min.js"></script>
+      <script src="js/template/homeTemplate.js"></script>
+      <script src="js/library/velocity.min.js"></script>
+      <script src="js/library/velocity.ui.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/animation.js"></script>
+    </div>
+  </body>
+</html>

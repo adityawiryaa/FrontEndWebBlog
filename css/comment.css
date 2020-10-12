@@ -1,0 +1,102 @@
+.commentPost {
+  background: white;
+  margin-bottom: 50px;
+  padding-bottom: 60px;
+}
+.commentHeader {
+  padding-top: 20px;
+  padding-left: 25px;
+  cursor: pointer;
+  border-bottom: 2px solid red;
+  margin-bottom: 30px;
+  display: flex;
+}
+#comment {
+  border: 2px solid black;
+  display: flex;
+  margin: 20px;
+  border-radius: 20px;
+  background: #58a57a;
+  color: white;
+}
+.pictureUser {
+  padding: 10px 10px;
+  height: 100%;
+  border-right: 2px solid black;
+}
+.userComment {
+  padding: 10px 10px;
+  margin: 0px 20px;
+}
+.userComment p {
+  font-size: 17px;
+}
+.commentForm {
+  padding-bottom: 30px;
+  background: wheat;
+}
+.commentForm header {
+  padding-top: 20px;
+  text-align: center;
+}
+.userDisplay {
+  padding-left: 20px;
+}
+.userInput {
+  color: black;
+  margin-top: 5px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.commentDisplay {
+  padding-top: 20px;
+  margin: 20px;
+}
+.commentInput {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 10px;
+  padding-bottom: 100px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 20px;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  border-radius: 50%;
+}
+/* Responsive Blog*/
+@media screen and (max-width: 800px) {
+  .commentPost {
+    width: 100%;
+  }
+  .commentForm {
+    margin-bottom: 20px;
+  }
+  .pictureUser img {
+    height: 100%;
+  }
+  .commentDisplay {
+    margin-top: 5px;
+  }
+  .userInput {
+    font-size: 14px;
+  }
+  .commentInput {
+    padding-bottom: 30px;
+    font-size: 14px;
+  }
+  .userComment p,
+  strong,
+  p {
+    font-size: 15px;
+  }
+  p#date {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,62 @@
+body {
+  background: url(../images/about/background.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+.box {
+  width: 450px;
+  background: rgb(0, 0, 0, 0.4);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin: auto;
+  margin-top: 4%;
+  border-radius: 10px;
+}
+.pictureAbout {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 3px;
+  border: 2px solid transparent;
+  background: linear-gradient(60deg, #efa51a 10%, #ce00 100%);
+}
+.box h1 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.box h5 {
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.box p {
+  font-size: 18px;
+  padding-bottom: 15px;
+  font-weight: 200;
+  text-align: justify;
+  line-height: 25px;
+}
+.icon a {
+  padding: 0px 5px;
+  transition: all ease-in-out 450ms;
+}
+.icon a:hover {
+  background: #b9b9b9;
+}
+/* Responsive Blog*/
+@media (max-width: 800px) {
+  .menuContainer,
+  .box {
+    width: 80%;
+    padding: 20px;
+    height: 100%;
+  }
+  .box p {
+    font-size: 17px;
+    line-height: 22px;
+  }
+}
